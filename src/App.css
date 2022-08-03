@@ -1,0 +1,50 @@
+.error {
+  color: #d10011;
+  font-size: 0.9rem;
+  margin-top: 0.25rem;
+}
+.formlabel {
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+.redBorder {
+  border: 1px solid red;
+}
+.form-control:focus {
+  outline: none !important;
+  /* border-color: inherit ; */
+  box-shadow: none !important;
+}
+
+.form-control.redBorder:focus {
+  border-color: red;
+}
+.table_action {
+  font-size: 1rem;
+  cursor: pointer;
+}
+.table_action_del:hover {
+  color: crimson;
+}
+.table_action_edit:hover {
+  color: #0d6efd;
+}
+.border-right {
+  border-right: 2px solid black;
+}
+.full-height {
+  min-height: 100vh;
+}
+.tableContainer {
+  margin: 2rem 1.5rem 2rem;
+}
+.table-responsive {
+  overflow-x: unset !important;
+}
+.map-container {
+  width: 80vw;
+  border: 2px solid black;
+  margin-left: 10%;
+  margin-top: 5%;
+  height: 65vh;
+}
