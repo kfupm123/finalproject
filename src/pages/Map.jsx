@@ -73,7 +73,7 @@ const Map = () => {
                             : 0.0,
                         }}
                         icon={pkgss[index]}
-                        title={`${pkg.RTA ? pkg.RTA : "-"}`}
+                        title={`${pkg.ETA ? pkg.ETA : "-"}`}
                       />
                     ))}
                 </>
